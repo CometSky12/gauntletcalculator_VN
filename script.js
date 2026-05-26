@@ -71,33 +71,33 @@
     }
 
     document.getElementById("modalResult").innerHTML = 
-    `<h2 style="color: #2dd4bf; text-align: center;">Results</h2>
+    `<h2 style="color: #2dd4bf; text-align: center;">Kết quả</h2>
     <div class="results-section">
         <div class="result-line">
-            <span class="highlight">Jackpot Gauntlet luck per second:</span> ${finalJackpotValue.toFixed(3)}
+            <span class="highlight">Jackpot Gauntlet luck mỗi giây:</span> ${finalJackpotValue.toFixed(3)}
         </div>
         <div class="result-line">
-            <span class="highlight">Flesh Device luck per second:</span> ${finalFleshValue.toFixed(3)}
+            <span class="highlight">Flesh Device luck mỗi giây:</span> ${finalFleshValue.toFixed(3)}
         </div>
         <div class="result-line">
-            <span class="highlight">Gravitational Device luck per second:</span> ${finalGravValue.toFixed(3)}
+            <span class="highlight">Gravitational Device luck mỗi giây:</span> ${finalGravValue.toFixed(3)}
         </div>
         <div class="result-line">
-            <span class="highlight">Darkshader luck per second:</span> ${finalShaderValue.toFixed(3)}
+            <span class="highlight">Darkshader luck mỗi giây:</span> ${finalShaderValue.toFixed(3)}
         </div>
         <div class="result-line">
-            <span class="highlight">Pole Light Core Device luck per second:</span> ${finalPoleValue.toFixed(3)}
+            <span class="highlight">Pole Light Core Device luck mỗi giây:</span> ${finalPoleValue.toFixed(3)}
         </div>
         <div class="result-line">
-            <span class="highlight">The Thing luck per second:</span> ${finalThingValue.toFixed(3)}
+            <span class="highlight">The Thing luck mỗi giây:</span> ${finalThingValue.toFixed(3)}
         </div>
         <div class="result-line">
-            <span class="highlight">Unfathomable Ruins luck per second:</span> ${finalRuinsValue.toFixed(3)}
+            <span class="highlight">Unfathomable Ruins luck mỗi giây:</span> ${finalRuinsValue.toFixed(3)}
         </div>
     </div>
     <div class="results-section" style="margin-top: 20px;">
         <div class="result-line" style="background-color: #2d2d2d; border-left: 3px solid #2dd4bf;">
-            <span style="color: #2dd4bf; font-size: 1.1em;">Best Choice:</span> ${bestGauntlet}
+            <span style="color: #2dd4bf; font-size: 1.1em;">Lựa chọn tốt nhất:</span> ${bestGauntlet}
         </div>
     </div>`;
 
@@ -146,7 +146,7 @@ function calculateDifference() {
     var resultText = 
     `<h2 style="color: #2dd4bf; text-align: center">Gauntlet Comparison</h2>
     <p>The information is based on your provided values.</p>
-    <p>The luck value is <span class="highlight">WITH L GAUNTLETS UNEQUIPPED.</span></p>
+    <p>The luck value is <span class="highlight">VỚI GĂNG L BỊ THÁO.</span></p>
     <div class="results-section">
         <h3 style="color: #2dd4bf; margin: 0 0 5px;">Result</h3>
         <div class="result-line"><span class="highlight">Ruins better than Pole at</span>: ${poleVsRuins.toFixed(3)} luck</div>
